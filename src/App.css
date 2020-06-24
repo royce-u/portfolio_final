@@ -52,6 +52,10 @@ nav a:hover {
   color: rgb(224, 228, 18);
 }
 
+a:hover{
+  color: blue;
+}
+
 .link-clean {
   color: black;
   text-decoration: none;
@@ -111,4 +115,11 @@ nav a:hover {
 
 .w-hunnit{
   width: 100%;
+}
+
+.proj-title{
+  font-family: 'Notable';
+  font-size: 20px;
+  color: white;
+  text-align: left;
 }
