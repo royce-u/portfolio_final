@@ -6,22 +6,22 @@ import {  Link } from 'react-router-dom'
 
 const About = () => {
 
-    function copyToClipboard(e) {
-        let email = document.getElementById('email')
-        email.select()
-        document.execCommand("copy")
-        console.log(email)
-    }
+    // function copyToClipboard(e) {
+    //     let email = document.getElementById('email')
+    //     email.select()
+    //     document.execCommand("copy")
+    //     console.log(email)
+    // }
     return (
         <Container className="header-top fullSize">
             <h1 id="contact" className="bg-grey header-txt">Contact</h1>
             <Grid>
                 <Grid.Row className="no-margin" centered>
-                    <input type="hidden" id="email" value="royceubando@gmail.com" />
-                    <p><Icon name="mail" size="massive" onClick={(e) => copyToClipboard(e)} /><h4>royceubando@gmail.com</h4></p>
+                    <p><Icon name="mail" size="massive" color="grey"/><h4>royceubando@gmail.com</h4></p>
                     
-                    <a href="https://github.com/royce-u/" target="_blank"><Icon name="github" size="massive" className="link-clean" /></a>
-                    <a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon name="linkedin" size="massive" className="link-clean" /></a>
+                    <p><a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="massive" className="link-clean" /></a><h4>Github</h4></p> 
+                    <p><a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="massive" className="link-clean" /></a><h4>LinkedIn</h4></p> 
+                    <p><a href="../ATS_Resume_final.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p> 
                 </Grid.Row>
                 <Grid.Row><h3 className="header-txt bg-grey w-hunnit">Technical Skills</h3></Grid.Row>
                 <Grid.Row >
