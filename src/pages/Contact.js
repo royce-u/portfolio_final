@@ -17,8 +17,7 @@ const About = () => {
             <h1 id="contact" className="bg-grey header-txt">Contact</h1>
             <Grid>
                 <Grid.Row className="no-margin" centered>
-                    <p><Icon name="mail" size="massive" color="grey"/><h4>royceubando@gmail.com</h4></p>
-                    
+                    <p><Icon name="mail" size="massive" color="grey"/><h4>royce.ubando.dev@gmail.com</h4></p>
                     <p><a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="massive" className="link-clean" /></a><h4>Github</h4></p> 
                     <p><a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="massive" className="link-clean" /></a><h4>LinkedIn</h4></p> 
                     <p><a href="../Design_Resume.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p> 
