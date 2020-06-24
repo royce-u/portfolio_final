@@ -22,8 +22,10 @@ const Projects = () => (
     //     )
     // })
     <Container className="header-top"> 
-        <h1 id="projects" className=" bg-grey header-txt">Projects</h1>
+    <div id="projects" className="header-top"></div>
     <Grid columns={2} stackable>
+ 
+        <h1 className="bg-grey header-txt w-hunnit">Projects</h1>
         <Grid.Row>
             <Grid.Column className="spacing">
                 <Image size='medium' src='../tastyRoots-home.png' alt='tastyroots image' />

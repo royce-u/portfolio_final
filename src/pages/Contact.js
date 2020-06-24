@@ -14,8 +14,8 @@ const About = () => {
     // }
     return (
         <Container className="header-top fullSize">
-            <h1 id="contact" className="bg-grey header-txt">Contact</h1>
             <Grid>
+            <h1 id="contact" className="bg-grey header-txt w-hunnit">Contact</h1>
                 <Grid.Row className="no-margin" centered>
                     <p><Icon name="mail" size="massive" color="grey"/><h4>royce.ubando.dev@gmail.com</h4></p>
                     <p><a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="massive" className="link-clean" /></a><h4>Github</h4></p> 
