@@ -21,7 +21,6 @@ function App() {
          <Nav sticky="top"/>
          <Content />
        </Router>
-       {/* <h1>Under Construction</h1> */}
     </div>
   );
 }

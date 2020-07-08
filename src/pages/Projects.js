@@ -2,25 +2,6 @@ import React from 'react';
 import { Container, Grid, Image } from 'semantic-ui-react'
 
 const Projects = () => (
-    // if (!props.projectsData) {
-    //     return null
-    // }
-    // let proj = props.projectsData.map((p, i) => {
-    //     return (
-    //         // <Card key={i} className="proj-card">
-    //         //     <Card.Content header={<a href={p.link} style={{ display: "table-cell" }} target="_blank">{p.name}</a><span>{p.date}</span>}/>
-    //         //     <Card.Subtitle className="mb-2 text-muted">{p.tech}</Card.Subtitle>
-    //         //     <Card.Text>{p.description}</Card.Text>
-    //         // </Card>
-    //         <Grid.Column></Grid.Column>
-    //         <Card>
-    //             <Card.Header><a  href={p.link} className="card-title" style={{ display: "table-cell" }} target="_blank">{p.name}</a></Card.Header>
-    //             <Card.Meta><span className="date">{p.date}</span></Card.Meta>
-    //             <Card.Content>fuck</Card.Content>
-    //         </Card>
-
-    //     )
-    // })
     <Container className="header-top"> 
     <div id="projects" className="header-top"></div>
     <Grid columns={2} stackable>
@@ -54,14 +35,6 @@ const Projects = () => (
                 <p className="description">A place for Animal Crossing players to arrange meet-ups and catalogue items in the game.  Visit the Inventory page to add items to your Wist List or inventory.  Create events and specifiy what items you require and set a time and place as well as a max visitor capacity.</p>
                 <p className="description">Co-developed secure web application with Javascript and Typescript.  Database built with mongoDb/mongoose.  Built and styled front end with React and Semantic-UI-React.</p>
             </Grid.Column>
-            {/* <Grid.Column className="spacing">
-                <Image size='medium' src='../spanish21Logo.png' />
-            </Grid.Column>
-            <Grid.Column>
-                <h2>Spanish 21</h2>
-                <p className="description">Tech: Bcrypt, Express, Javascript, MongoDb, Mongoose, Node.js, React, Semantic-UI-React, Typescript</p>
-                <p className="description"></p>
-            </Grid.Column> */}
         </Grid.Row>
     </Grid>
     </Container>
