@@ -31,8 +31,8 @@ const About = () => {
                     <Image src="../css.svg" size="tiny" />
                     <Image src="../html-5.svg" size="tiny" />
                     <Image src="../nodejs.svg" size="tiny" />
-                    <Image src="../sql-2.svg" size="tiny" className="bg-white" circular />
-                    <Image src="../mongodb.svg" size="tiny" white bordered/>
+                    <Image src="../sequelize2.svg" size="tiny" />
+                    <Image src="../mongodb.svg" size="tiny" className="bg-white"/>
                 </Grid.Row>
             </Grid>
         </Container>

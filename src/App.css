@@ -82,7 +82,7 @@ a:hover{
   text-align: left
 }
 .bg-white{
-  background-color: white;
+  color: white;
 }
 .bg-grey{
   background-color: rgb(32, 31, 31);
@@ -123,4 +123,3 @@ a:hover{
   color: white;
   text-align: left;
 }
-
