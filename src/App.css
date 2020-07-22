@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .App-header {
   background-color: #f8faff;
   min-height: 20vh;
@@ -22,6 +21,11 @@ body {
   margin: 0;
   background-color: rgb(43, 42, 42);
   color: white;
+  font-family: 'Copse', serif;
+}
+
+body, html{
+  height: 100%;
 }
 nav {
   margin: 0 auto;
@@ -71,7 +75,7 @@ a:hover{
 
 .header-top{
   /* margin-top: 10%; */
-  padding-top: 100px;
+  padding-top: 100px; 
 }
 
 .spacing{
@@ -95,21 +99,18 @@ a:hover{
 }
 
 .homepage{
-  font-family: 'bangers', 'arial';
+  font-family: 'Permanent Marker', cursive;
   font-size: 100px;
 }
 .hp-title{
-  font-family: 'Notable';
   font-size: 30px;
 }
 
 .menu{
-  font-family: 'Notable';
   font-size: 20px;
   color: grey;
 }
 .header-txt{
-  font-family: 'Notable';
   font-size: 35px;
 }
 
@@ -118,8 +119,15 @@ a:hover{
 }
 
 .proj-title{
-  font-family: 'Notable';
   font-size: 20px;
   color: white;
   text-align: left;
+}
+
+.hero-image{
+  background-image: url("/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
