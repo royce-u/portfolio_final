@@ -3,8 +3,7 @@ import { Container, Grid } from 'semantic-ui-react'
 
 const Home = props => {
     return (
-        <Container className="fullSize header-top hero-image" id="home">
-    
+        <Container className="fullSize header-top hero-image">
             <br />
             <br />
             <br />
