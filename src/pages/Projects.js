@@ -13,8 +13,8 @@ const Projects = () => (
             </Grid.Column>
             <Grid.Column className="spacing">
                 <a href="https://tasty-roots-client.herokuapp.com/profile" target="_blank" className="link-clean"><h2 className="proj-title">Tasty Roots</h2></a>
-                <p className="description">Tech: Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p>
-                <p className="description">A place to preserve family recipes.  Create your family circle and invite loved ones to build up your family cook book.  Create recipes and choose what families you share them with or set privacy settings so your secret recipes stay secret.  Have a different take on an existing recipe?  Create a Twist Recipe.</p>
+                {/* <p className="description">Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p> */}
+                <p className="description">A place to preserve family recipes.</p>
                 <p className="description">Co-developed secure web application with Javascript and typescript.  Back-End built with express, Node.js.  Database built with MongoDb/Mongoose and used Redux for state management.  Front-End built with React and styled with Semantic UI React.</p>
             </Grid.Column>
             <Grid.Column className="spacing">
@@ -22,8 +22,8 @@ const Projects = () => (
             </Grid.Column>
             <Grid.Column className="spacing">
                 <a href="https://block-party206.herokuapp.com/" target="_blank" className="link-clean"><h2 className="proj-title">Block Party</h2></a>
-                <p className="description">Tech: Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p>
-                <p className="description">Connecting you to your local community.  Use the 'Peoples' tab to educate yourself on the different cultures in your area, whether it be finding a tutor when learning a new language or trading ethnic dishes from different cultures.  Keep your neighborhood safe by submitting new or verifying current incident reports.  Help the local shopkeeper stay open by posting promotional content. </p>
+                {/* <p className="description">Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p> */}
+                <p className="description">Connecting you to your local community. </p>
                 <p className="description">Web application built with Javascript.  Back-end built with Express, Node.js and secured with Bcrypt and passport.  Database handled with MongoDB/Mongoose.  Front-End built with Express EJS Layouts and styled with Materialize.</p>
             </Grid.Column>
             <Grid.Column className="spacing">
@@ -31,8 +31,8 @@ const Projects = () => (
             </Grid.Column>
             <Grid.Column className="spacing">
                 <a href="http://dodoswap.herokuapp.com/" target="_blank"><h2 className="proj-title">Dodo Swap</h2></a>
-                <p className="description">Tech: Bcrypt, Express, Javascript, MongoDb, Mongoose, Node.js, React, Semantic-UI-React, Typescript</p>
-                <p className="description">A place for Animal Crossing players to arrange meet-ups and catalogue items in the game.  Visit the Inventory page to add items to your Wist List or inventory.  Create events and specifiy what items you require and set a time and place as well as a max visitor capacity.</p>
+                {/* <p className="description">Bcrypt, Express, Javascript, MongoDb, Mongoose, Node.js, React, Semantic-UI-React, Typescript</p> */}
+                <p className="description">A place to arrange events to catalogue Animal Crossing items</p>
                 <p className="description">Co-developed secure web application with Javascript and Typescript.  Database built with mongoDb/mongoose.  Built and styled front end with React and Semantic-UI-React.</p>
             </Grid.Column>
         </Grid.Row>
