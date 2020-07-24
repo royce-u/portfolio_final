@@ -9,7 +9,7 @@ const Home = props => {
             <br />
             <br />
                 <Grid.Row >
-                    <Grid.Column><h1 className="header-top homepage">Royce Ubando</h1></Grid.Column>
+                    <Grid.Column><h1 className="header-top hp-name">Royce Ubando</h1></Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column sm={4}></Grid.Column>
