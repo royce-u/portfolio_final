@@ -32,7 +32,6 @@ body, html{
 nav {
   margin: 0 auto;
   text-align: right;
-  /* background-color: rgb(15, 31, 84); */
   font-size: 26px;
   padding: 5px 0;
   position: fixed;
@@ -47,20 +46,18 @@ nav ul {
 nav li {
   display: inline;
   margin-right: 15px;
+  color: white;
 }
 
 nav a {
   text-decoration: none;
-  color: rgb(177, 177, 232);
+  /* color: rgb(255, 255, 255); */
 }
 
 nav a:hover {
   color: rgb(215, 7, 28);
 }
 
-a:hover{
-  color: blue;
-}
 
 .link-clean {
   color: black;
@@ -69,19 +66,15 @@ a:hover{
 
 .f-vh {
   height: 95vh;
-  position: relative;
+  /* position: relative; */
 }
 
-.no-margin{
-  margin: 0 auto;
-}
-
-.pad-5{
+.pt-5{
   /* margin-top: 10%; */
   padding-top: 5%; 
 }
 
-.pad-20{
+.pt-20{
   padding-top: 20%;
 }
 
@@ -93,9 +86,6 @@ a:hover{
   text-align: left
 }
 
-.bg-white{
-  color: white;
-}
 
 .bg-grey{
   background-color: rgb(32, 31, 31);
@@ -121,6 +111,10 @@ a:hover{
   top: 65%;
   right: 5%; */
   font-size: 30px;
+}
+
+.mt-10{
+  margin-top: 10%;
 }
 
 .menu{

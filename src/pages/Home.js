@@ -4,7 +4,7 @@ import { Container, Grid } from 'semantic-ui-react'
 const Home = props => {
     return (
         <Container className="f-vh">
-            <Grid.Row className="pad-20">
+            <Grid.Row className="pt-20">
             </Grid.Row>
             <Grid.Row >
                 <Grid.Column><h1 className="hp-name">Royce Ubando</h1></Grid.Column>
