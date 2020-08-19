@@ -13,7 +13,7 @@ const About = () => {
     //     console.log(email)
     // }
     return (
-        <Container className="header-top fullSize">
+        <Container className="pad-5 fullSize">
             <Grid>
             <h1 id="contact" className="bg-grey header-txt w-hunnit">Contact</h1>
                 <Grid.Row className="no-margin" centered>

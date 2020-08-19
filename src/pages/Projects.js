@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Grid, Image } from 'semantic-ui-react'
 
 const Projects = () => (
-    <Container className="header-top"> 
-    <div id="projects" className="header-top"></div>
+    <Container className="pad-5"> 
+    <div id="projects" className="pad-5"></div>
     <Grid columns={2} stackable>
  
         <h1 className="bg-grey header-txt w-hunnit">Projects</h1>

@@ -32,7 +32,7 @@ body, html{
 nav {
   margin: 0 auto;
   text-align: right;
-  background-color: rgb(15, 31, 84);
+  /* background-color: rgb(15, 31, 84); */
   font-size: 26px;
   padding: 5px 0;
   position: fixed;
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(224, 228, 18);
+  color: rgb(215, 7, 28);
 }
 
 a:hover{
@@ -67,17 +67,22 @@ a:hover{
   text-decoration: none;
 }
 
-.fullSize {
+.f-vh {
   height: 95vh;
+  position: relative;
 }
 
 .no-margin{
   margin: 0 auto;
 }
 
-.header-top{
+.pad-5{
   /* margin-top: 10%; */
-  padding-top: 100px; 
+  padding-top: 5%; 
+}
+
+.pad-20{
+  padding-top: 20%;
 }
 
 .spacing{
@@ -87,24 +92,34 @@ a:hover{
 .description {
   text-align: left
 }
+
 .bg-white{
   color: white;
 }
+
 .bg-grey{
   background-color: rgb(32, 31, 31);
   color: rgb(196, 191, 191);
   font-size: 75px;
   align-content: center;
 }
+
 .txt-center{
   text-align: center;
 }
 
 .hp-name{
+  /* position: absolute;
+  top: 50%;
+  right: 5%; */
   font-family: 'Permanent Marker', cursive;
   font-size: 100px;
 }
+
 .hp-title{
+  /* position: absolute;
+  top: 65%;
+  right: 5%; */
   font-size: 30px;
 }
 
@@ -126,13 +141,12 @@ a:hover{
   text-align: left;
 }
 
-.hero-image{
+/* .hero-image{
   width: 100%;
   margin-right: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
-}
+} */
