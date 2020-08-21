@@ -13,7 +13,7 @@ const About = () => {
     //     console.log(email)
     // }
     return (
-        <Container className="f-vh mt-10" id="contact">
+        <Container className="f-vh mt-20" id="contact">
             <Grid stretched>
                 <Grid.Row>
                     <h1 className="header-txt w-hunnit">Contact</h1>
@@ -25,7 +25,7 @@ const About = () => {
                     <p><a href="../Design_Resume.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p>
                 </Grid.Row>
                 <Grid.Row><h3 className="header-txt w-hunnit">Technical Skills</h3></Grid.Row>
-                <Grid.Row >
+                <Grid.Row centered>
                     <Image src="../images/javascript.svg" size="tiny" />
                     <Image src="../images/005-python.svg" size="tiny" />
                     <Image src="../images/006-react.svg" size="tiny" />

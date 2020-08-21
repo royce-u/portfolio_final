@@ -80,6 +80,10 @@ nav a:hover {
   padding-top: 20%;
 }
 
+.pb-20 {
+  padding-bottom: 20%;
+}
+
 .spacing{
   padding: 5%;
 }
@@ -103,8 +107,12 @@ nav a:hover {
   font-size: 30px;
 }
 
-.mt-10{
-  margin-top: 10%;
+.mt-20{
+  margin-top: 20%;
+}
+
+.mb-20 {
+  margin-bottom: 20%;
 }
 
 .header-txt{
@@ -119,6 +127,49 @@ nav a:hover {
   font-size: 20px;
   color: white;
   text-align: left;
+}
+
+.cont{
+  position: relative;
+  /* width: 400px;
+  height: 300px; */
+}
+
+.imgLayer {
+  /* position: relative; */
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.textLayer {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.projText {
+  background-color: #5f3085;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.cont:hover .imgLayer {
+  opacity: 0.3;
+}
+
+.cont:hover .textLayer {
+  opacity: 1;
 }
 
 /* .hero-image{
