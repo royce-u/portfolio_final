@@ -14,7 +14,7 @@ const About = () => {
     // }
     return (
         <Container className="f-vh mt-20" id="contact">
-            <Grid stretched>
+            <Grid stackable>
                 <Grid.Row>
                     <h1 className="header-txt w-hunnit">Contact</h1>
                 </Grid.Row>
