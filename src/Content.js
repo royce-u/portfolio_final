@@ -10,7 +10,7 @@ const Content = props => {
         <div>     
             <Home />
             <Projects />
-            <Contact />
+            {/* <Contact /> */}
         </div>
     )
 }
