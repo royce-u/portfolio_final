@@ -17,10 +17,8 @@ function App() {
     <div className="App">
       {/* <header className="App-header">
       </header> */}
-       <Router>
          <Nav sticky="top"/>
          <Content />
-       </Router>
     </div>
   );
 }
