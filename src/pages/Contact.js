@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
-import { Container, Grid, Icon, Image, Label } from 'semantic-ui-react';
+import { Container, Grid, Icon, Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom'
 
 
 
-const About = () => {
+const Contact = () => {
 
     // function copyToClipboard(e) {
     //     let email = document.getElementById('email')
@@ -13,7 +13,7 @@ const About = () => {
     //     console.log(email)
     // }
     return (
-        <Container className="f-vh mt-20" id="contact">
+        <Container className="pt-5" id="contact">
             <Grid stackable>
                 <Grid.Row>
                     <h1 className="header-txt w-hunnit">Contact</h1>
@@ -24,21 +24,10 @@ const About = () => {
                     <p><a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="massive" className="link-clean" /></a><h4>LinkedIn</h4></p>
                     <p><a href="../Design_Resume.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p>
                 </Grid.Row>
-                <Grid.Row><h3 className="header-txt w-hunnit">Technical Skills</h3></Grid.Row>
-                <Grid.Row centered>
-                    <Image src="../images/javascript.svg" size="tiny" />
-                    <Image src="../images/005-python.svg" size="tiny" />
-                    <Image src="../images/006-react.svg" size="tiny" />
-                    <Image src="../images/025-typescript.svg" size="tiny" />
-                    <Image src="../images/css.svg" size="tiny" />
-                    <Image src="../images/html-5.svg" size="tiny" />
-                    <Image src="../images/nodejs.svg" size="tiny" />
-                    <Image src="../images/sequelize2.svg" size="tiny" />
-                    <Image src="../images/mongodb.svg" size="tiny" className="bg-white" />
-                </Grid.Row>
+                {/* <Grid.Row><h3 className="header-txt w-hunnit">Technical Skills</h3></Grid.Row> */}
             </Grid>
         </Container>
     )
 }
 
-export default About
+export default Contact;

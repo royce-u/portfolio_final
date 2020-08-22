@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Grid, Header, Image } from 'semantic-ui-react'
+import { Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const Projects = () => {
     return (
