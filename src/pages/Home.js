@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid } from 'semantic-ui-react'
 
-const Home = props => {
+const Home = () => {
     return (
         <Container className="f-vh">
             <Grid.Row className="pt-20">
@@ -16,10 +16,6 @@ const Home = props => {
                 </Grid.Row>
             </Grid.Row>
         </Container>
-        // <div className="f-vh">
-        //     <div className="hp-name">Royce Ubando</div>
-        //     <div className="hp-title">Full Stack Developer</div>
-        // </div>
 
     )
 }
