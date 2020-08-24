@@ -17,12 +17,11 @@
   color: #61dafb;
 }
 
-body {
+body{
   margin: 0;
   background-color: rgb(238, 238, 238);
   color: rgb(5, 5, 5);
-  font-family: 'Fanwood Text', serif;
-  /* font-family: 'Copse', serif; */
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 body, html{
@@ -66,6 +65,10 @@ h3 {
   margin-bottom: 20px;
 }
 
+.font{
+  font-family: 'Do Hyeon', sans-serif;
+}
+
 .link-clean {
   color: black;
   text-decoration: none;
@@ -77,23 +80,10 @@ h3 {
 
 .f-vh {
   height: 95vh;
-
 }
 
 .bg-def {
   background-color: rgb(11, 127, 148);
-}
-
-.bg-red {
-  background-color: red;
-}
-
-.bg-yellow {
-  background-color: yellow;
-}
-
-.bg-blue {
-  background-color: blue;
 }
 
 .pt-5{
@@ -126,16 +116,13 @@ h3 {
   height: 500px;
 }
 
-
 .hp-name{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 100px;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 5rem;
 }
 
 .hp-title{
-  /* position: absolute;
-  top: 65%;
-  right: 5%; */
+  font-family: 'Do Hyeon', sans-serif;
   font-size: 30px;
 }
 

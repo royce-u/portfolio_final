@@ -8,9 +8,9 @@ const Projects = () => {
             <Grid columns={2} stackable>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                          <hr/>
+                        <hr />
                         <div className="pt-10 fw">
-                            <h1>Projects</h1>
+                            <Header as="h4">PROJECTS</Header>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
@@ -21,7 +21,7 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <h3>Tasty Roots</h3>
+                        <h3 className="font">Tasty Roots</h3>
                         <p>A place to preserve family recipes</p>
                         <p>Cloudinary Upload Widget, Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Redux</p>
                         <div className="pt-10"></div>
@@ -32,7 +32,7 @@ const Projects = () => {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                          <hr/>
+                        <hr />
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
@@ -42,7 +42,7 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <Header>Dodo Swap</Header>
+                        <h3 className="font">Dodo Swap</h3>
                         <p>A way for Animal Crossing Fans to arrange catalogue parties</p>
                         <p>Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Typescript</p>
                         <div className="pt-10"></div>
@@ -53,7 +53,7 @@ const Projects = () => {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                          <hr/>
+                        <hr />
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
@@ -63,7 +63,7 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <Header>Block Party</Header>
+                        <h3 className="font">Block Party</h3>
                         <p>Connecting you with your local community</p>
                         <p>Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p>
                         <div className="pt-10"></div>
@@ -74,7 +74,7 @@ const Projects = () => {
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                          <hr/>
+                        <hr />
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
