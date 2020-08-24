@@ -17,7 +17,7 @@ const Projects = () => {
                 <Grid.Row>
                     <Grid.Column>
                         <div className="pt-20"></div>
-                        <Image spaced="left" size='large' rounded src='../images/tastyRoots-home.png' alt='tastyroots image' />
+                        <Image spaced="left" size='large' rounded src='../images/mb-tastyRoots.png' alt='tastyroots image' />
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
@@ -38,7 +38,7 @@ const Projects = () => {
                 <Grid.Row>
                     <Grid.Column>
                         <div className="pt-20"></div>
-                        <Image spaced="left" rounded size='large' src='../images/dodoSwap-home.png' />
+                        <Image spaced="left" rounded size='large' src='../images/mb-dodoSwap.png' />
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
@@ -59,7 +59,7 @@ const Projects = () => {
                 <Grid.Row>
                     <Grid.Column>
                         <div className="pt-20"></div>
-                        <Image spaced="left" rounded size='large' src='../images/blockParty-home.png' alt='blockparty image' />
+                        <Image spaced="left" rounded size='large' src='../images/mb-blockParty.png' alt='blockparty image' />
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
