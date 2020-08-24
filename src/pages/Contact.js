@@ -3,49 +3,59 @@ import { Container, Form, Grid, Header, Icon, Image, Input, Button, TextArea } f
 
 
 const Contact = () => {
-
     // function copyToClipboard(e) {
     //     let email = document.getElementById('email')
     //     email.select()
     //     document.execCommand("copy")
     //     console.log(email)
     // }
+
+
     return (
-        <Container id="contact">
+        <Container id="contact" className="pt-5">
             <div className="pt-5"></div>
             <Grid stackable centered>
-                <Grid.Row className="bg-red">
-                    <h1>Want to work together on a project?</h1>
-                    <h2>Drop a line below</h2>
+                <Grid.Row className="bg-red" textAlign="center">
+                    <div>
+                        <h1>Have a project in mind?</h1>
+                        <h2>Drop a line below and let's get started!</h2>
+                    </div>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column width={10} height={7}>
-                        <Form>
+                    <Grid.Column width={12}>
+                        <Form size="large">
                             <Form.Group widths="equal">
                                 <Form.Field
                                     id="email"
                                     control={Input}
-                                    label="Email"
-                                    />
+                                    label="EMAIL"
+                                    required="true"
+                                />
                                 <Form.Field
                                     id="name"
                                     control={Input}
-                                    label="Name"
-                                    />
+                                    label="NAME"
+                                />
                             </Form.Group>
+                            <Form.Field required>
+                                <label>MESSAGE</label>
+                                <textarea id="message" rows="10" />
+                            </Form.Field>
                             <Form.Field
-                            id="message"
-                            control={TextArea}
-                            label="Message"
-                            className="h-100"
-                            />
-                            <Form.Field
-                            control={Button}
-                            content="Confirm"
+                                control={Button}
+                                content="Confirm"
                             />
                         </Form>
                     </Grid.Column>
                 </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column>
+                        <p><a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="massive" className="link-clean" /></a><h4>Github</h4></p>
+                        <p><a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="massive" className="link-clean" /></a><h4>LinkedIn</h4></p>
+                        <p><a href="../Design_Resume.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p>
+                    </Grid.Column>
+                </Grid.Row>
+
             </Grid>
         </Container>
     )
@@ -54,11 +64,3 @@ const Contact = () => {
 export default Contact;
 
 
-{/* <Grid.Row>
-    <Grid.Column>
-        <p><Icon name="mail" size="massive" color="grey" /><h4>royce.ubando.dev@gmail.com</h4></p>
-        <p><a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="massive" className="link-clean" /></a><h4>Github</h4></p>
-        <p><a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="massive" className="link-clean" /></a><h4>LinkedIn</h4></p>
-        <p><a href="../Design_Resume.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p>
-    </Grid.Column>
-</Grid.Row> */}
