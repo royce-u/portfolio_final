@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       
          <Nav sticky="top"/>
-         {/* <Home /> */}
-         {/* <Projects /> */}
-         {/* <About /> */}
+         <Home />
+         <Projects />
+         <About />
          <Contact />
     </div>
   );

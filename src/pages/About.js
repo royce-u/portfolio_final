@@ -3,8 +3,8 @@ import { Container, Grid, Header, Image } from 'semantic-ui-react';
 
 function About(){
     return(
-        <Container columns={2} className="pt-10">
-            <Grid stackable divided="vertically">
+        <Container columns={2} className="pt-10 f-vh" id="about">
+            <Grid stackable>
                 <Grid.Row>
                     <Header>About Me</Header>
                 </Grid.Row>

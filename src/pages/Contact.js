@@ -21,6 +21,8 @@ const Contact = () => {
     return (
         <Container id="contact" className="pt-5">
             <div className="pt-5"></div>
+            <div className="w-hunnit">
+
             <Grid stackable centered>
                 <Grid.Row textAlign="center">
                     <div>
@@ -71,6 +73,7 @@ const Contact = () => {
                 </Grid.Row>
 
             </Grid>
+            </div>
         </Container>
     )
 }

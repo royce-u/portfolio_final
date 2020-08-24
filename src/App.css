@@ -61,16 +61,27 @@ nav a:hover {
   color: rgb(235, 232, 101);
 }
 
-
+h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
 
 .link-clean {
   color: black;
   text-decoration: none;
 }
 
+.d-block{
+  display: block;
+}
+
 .f-vh {
   height: 95vh;
 
+}
+
+.bg-def {
+  background-color: rgb(11, 127, 148);
 }
 
 .bg-red {
@@ -117,9 +128,6 @@ nav a:hover {
 
 
 .hp-name{
-  /* position: absolute;
-  top: 50%;
-  right: 5%; */
   font-family: 'Permanent Marker', cursive;
   font-size: 100px;
 }
@@ -156,14 +164,7 @@ nav a:hover {
   text-align: left;
 }
 
-.cont{
-  position: relative;
-  /* width: 400px;
-  height: 300px; */
-}
-
 .imgLayer {
-  /* position: relative; */
   opacity: 1;
   display: block;
   width: 100%;

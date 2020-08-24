@@ -4,12 +4,16 @@ import { Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const Projects = () => {
     return (
-        <Container className="f-vh pt-5" id="projects">
-            <Grid columns={2} stackable divided="vertically">
+        <Container id="projects">
+            <Grid columns={2} stackable>
                 <Grid.Row>
+                    <Grid.Column width={16}>
+                          <hr/>
+                        <div className="pt-10 fw">
+                            <h1>Projects</h1>
+                        </div>
+                    </Grid.Column>
                 </Grid.Row>
-                <h1>Projects</h1>
-                <div className="mt-20"></div>
                 <Grid.Row>
                     <Grid.Column>
                         <div className="pt-20"></div>
@@ -17,13 +21,18 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <Header>Tasty Roots</Header>
+                        <h3>Tasty Roots</h3>
                         <p>A place to preserve family recipes</p>
                         <p>Cloudinary Upload Widget, Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Redux</p>
                         <div className="pt-10"></div>
                         <a href="#" className="proj-btn tr-btn">Preview</a>
                         <a href="https://tasty-roots-client.herokuapp.com/" className="proj-btn tr-btn">Visit Site</a>
                         <div className="pt-20"></div>
+                    </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column width={16}>
+                          <hr/>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
@@ -43,6 +52,11 @@ const Projects = () => {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
+                    <Grid.Column width={16}>
+                          <hr/>
+                    </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
                     <Grid.Column>
                         <div className="pt-20"></div>
                         <Image spaced="left" rounded size='large' src='../images/blockParty-home.png' alt='blockparty image' />
@@ -56,6 +70,11 @@ const Projects = () => {
                         <a href="#" className="proj-btn bp-btn">Preview</a>
                         <a href="https://block-party206.herokuapp.com/" className="proj-btn bp-btn">Visit Site</a>
                         <div className="pt-20"></div>
+                    </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column width={16}>
+                          <hr/>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
