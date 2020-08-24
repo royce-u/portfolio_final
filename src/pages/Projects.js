@@ -4,13 +4,13 @@ import { Container, Grid, Header, Image } from 'semantic-ui-react';
 
 const Projects = () => {
     return (
-        <Container id="projects">
+        <Container id="projects" className="font">
             <Grid columns={2} stackable>
                 <Grid.Row>
                     <Grid.Column width={16}>
                         <hr />
                         <div className="pt-10 fw">
-                            <Header as="h4">PROJECTS</Header>
+                            <h3>PROJECTS</h3>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
