@@ -1,6 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Grid, Header, Image } from 'semantic-ui-react';
+import React, { useState } from 'react';
+import { Container, Grid, Header, Image, Modal } from 'semantic-ui-react';
+import Modaltr from '../components/Slidestr';
+import Example from '../components/Example';
+
+// let handleModaltr = () => {
+//     const [open, setOpen] = React.useState(false)
+//     return (
+//         <Modal></Modal>
+//     )
+// }
+
 
 const Projects = () => {
     return (
@@ -11,6 +20,7 @@ const Projects = () => {
                         <hr />
                         <div className="pt-10 fw">
                             <h3>PROJECTS</h3>
+                            <Example />
                         </div>
                     </Grid.Column>
                 </Grid.Row>

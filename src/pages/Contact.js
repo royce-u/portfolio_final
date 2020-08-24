@@ -21,7 +21,7 @@ const Contact = () => {
     return (
         <Container id="contact" className="pt-5">
             <div className="pt-5"></div>
-            <div className="w-hunnit">
+            <div className="w-fw">
 
             <Grid stackable centered>
                 <Grid.Row textAlign="center">
