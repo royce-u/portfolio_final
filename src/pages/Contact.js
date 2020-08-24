@@ -49,10 +49,12 @@ const Contact = () => {
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column>
-                        <p><a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="massive" className="link-clean" /></a><h4>Github</h4></p>
-                        <p><a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="massive" className="link-clean" /></a><h4>LinkedIn</h4></p>
-                        <p><a href="../Design_Resume.pdf" target="_blank"><Icon color="grey" name="file" size="massive" className="link-clean" /></a><h4>Resume</h4></p>
+                    <Grid.Column textAlign="center">
+                        <div>
+                        <a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="huge" className="link-clean" /></a>
+                        <a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="huge" className="link-clean" /></a>
+                        <a href="../Resume.pdf" target="_blank"><Icon color="grey" name="file" size="huge" className="link-clean" /></a>
+                        </div>
                     </Grid.Column>
                 </Grid.Row>
 
