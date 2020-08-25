@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Grid, Header, Image, Modal } from 'semantic-ui-react';
-import Modaltr from '../components/Slidestr';
-import Example from '../components/Example';
+import TastyRootsModal from '../components/TastyRootsModal';
 
 // let handleModaltr = () => {
 //     const [open, setOpen] = React.useState(false)
@@ -20,7 +19,6 @@ const Projects = () => {
                         <hr />
                         <div className="pt-10 fw">
                             <h3>PROJECTS</h3>
-                            <Example />
                         </div>
                     </Grid.Column>
                 </Grid.Row>
@@ -35,7 +33,8 @@ const Projects = () => {
                         <p>A place to preserve family recipes</p>
                         <p>Cloudinary Upload Widget, Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Redux</p>
                         <div className="pt-10"></div>
-                        <a href="#" className="proj-btn tr-btn">Preview</a>
+                        <TastyRootsModal />
+                        {/* <a href="#" className="proj-btn tr-btn">Preview</a> */}
                         <a href="https://tasty-roots-client.herokuapp.com/" className="proj-btn tr-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
