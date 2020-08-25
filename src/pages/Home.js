@@ -3,7 +3,7 @@ import { Container, Grid } from 'semantic-ui-react'
 
 const Home = () => {
     return (
-        <Container className="f-vh">
+        <Container className="f-vh" id="home">
             <Grid.Row className="pt-20">
             </Grid.Row>
             <Grid.Row >
