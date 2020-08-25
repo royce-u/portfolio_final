@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Grid, Header, Image, Modal } from 'semantic-ui-react';
 import TastyRootsModal from '../components/TastyRootsModal';
+import DodoSwapModal from '../components/DodoSwapModal';
 
 // let handleModaltr = () => {
 //     const [open, setOpen] = React.useState(false)
@@ -55,7 +56,7 @@ const Projects = () => {
                         <p>A way for Animal Crossing Fans to arrange catalogue parties</p>
                         <p>Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Typescript</p>
                         <div className="pt-10"></div>
-                        <a href="#" className="proj-btn ds-btn">Preview</a>
+                        <DodoSwapModal />
                         <a href="http://dodoswap.herokuapp.com/" className="proj-btn ds-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
