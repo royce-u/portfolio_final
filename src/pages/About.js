@@ -10,7 +10,7 @@ function About() {
                         <Header>About Me</Header>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </Grid.Column>
-                    <Grid.Column>
+                    <Grid.Column className="bg-def">
                         <Header as="h3" textAlign="center">Technical Skills</Header>
                         <div className="pt-10"></div>
                         <Image src="../images/css.svg" size="tiny" inline />
