@@ -18,7 +18,6 @@ const Projects = () => {
             <Grid columns={2} stackable>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                        <hr />
                         <div className="pt-10 fw">
                             <h3>PROJECTS</h3>
                         </div>

@@ -128,7 +128,21 @@ h3 {
   font-family: 'Do Hyeon', sans-serif;
   font-size: 30px;
 }
-
+.techList{
+  text-align: left;
+  font-family: sans-serif;
+  list-style-type: none;
+  padding: 0;
+}
+.techList li{
+  padding-top: 5px;
+}
+.tech-cont{
+  border-radius: 25px;
+  border: solid 5px rgb(11, 127, 148);
+  background-color: #545454;
+  color: white;
+}
 .mt-20{
   margin-top: 20%;
 }
