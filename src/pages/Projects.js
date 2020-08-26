@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Grid, Header, Image, Modal } from 'semantic-ui-react';
 import TastyRootsModal from '../components/TastyRootsModal';
 import DodoSwapModal from '../components/DodoSwapModal';
+import BlockPartyModal from '../components/BlockPartyModal';
 
 // let handleModaltr = () => {
 //     const [open, setOpen] = React.useState(false)
@@ -77,7 +78,7 @@ const Projects = () => {
                         <p>Connecting you with your local community</p>
                         <p>Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p>
                         <div className="pt-10"></div>
-                        <a href="#" className="proj-btn bp-btn">Preview</a>
+                        <BlockPartyModal />
                         <a href="https://block-party206.herokuapp.com/" className="proj-btn bp-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
