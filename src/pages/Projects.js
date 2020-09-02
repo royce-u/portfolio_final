@@ -4,14 +4,6 @@ import TastyRootsModal from '../components/TastyRootsModal';
 import DodoSwapModal from '../components/DodoSwapModal';
 import BlockPartyModal from '../components/BlockPartyModal';
 
-// let handleModaltr = () => {
-//     const [open, setOpen] = React.useState(false)
-//     return (
-//         <Modal></Modal>
-//     )
-// }
-
-
 const Projects = () => {
     return (
         <Container id="projects" className="font">
