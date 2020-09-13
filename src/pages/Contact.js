@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Form, Grid, Header, Icon, Image, Input, Button, Message, TextArea } from 'semantic-ui-react';
+import { Container, Form, Grid, Icon, Input, Button, Message } from 'semantic-ui-react';
 import { Redirect } from 'react-router-dom';
 
 
