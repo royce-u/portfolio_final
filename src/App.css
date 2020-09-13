@@ -96,6 +96,10 @@ h3 {
   padding-top: 20%;
 }
 
+.pt-30{
+  padding-top: 30%;
+}
+
 .pb-20 {
   padding-bottom: 20%;
 }
@@ -129,19 +133,14 @@ h3 {
 }
 .techList{
   text-align: left;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   list-style-type: none;
   padding: 0;
 }
 .techList li{
   padding-top: 5px;
 }
-.tech-cont{
-  border-radius: 25px;
-  border: solid 5px rgb(11, 127, 148);
-  background-color: #545454;
-  color: white;
-}
+
 .mt-20{
   margin-top: 20%;
 }
@@ -194,6 +193,10 @@ h3 {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+.aboutText {
+  padding: 10% 15%;
 }
 
 .cont:hover .imgLayer {
