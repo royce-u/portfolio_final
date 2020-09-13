@@ -32,6 +32,7 @@ body, html{
   margin: 0 auto;
   text-align: right;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
   padding: 3px 0;
   width: 100%;
   position: fixed;
@@ -43,7 +44,7 @@ body, html{
 .navBar a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   padding: 0px 5px;
 
@@ -54,17 +55,12 @@ body, html{
 }
 
 .navBar a:hover {
-  color: rgb(235, 232, 101);
+  color: rgb(250,221,89);
 }
 
 .navHome {
   float: left;
   vertical-align: center;
-}
-
-.head {
-  font-size: 1.75rem;
-  margin-bottom: 20px;
 }
 
 .font{
@@ -263,12 +259,6 @@ body, html{
   background-color: rgb(132, 114, 143);;
   border: solid 2px rgb(132, 114, 143);
 }
-
-/* .ds-btn {
-  background-color: white;
-  color: rgb(57, 167, 224);
-  border: solid 1px rgb(57, 167, 224);
-} */
 
 .ds-btn:hover {
   color: white;
