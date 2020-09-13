@@ -81,7 +81,7 @@ body, html{
 }
 
 .f-vh {
-  height: 95vh;
+  height: 100vh;
 }
 
 .bg-def {
@@ -276,8 +276,20 @@ body, html{
   font-weight: 700;
   border: solid 1px rgb(57, 167, 224); 
 }
+.bp-btn1{
+  color: white;
+  background-color: rgb(213,6,0);
+}
+.bp-btn1:hover{
+  color: white;
+  background-color: rgb(133, 15, 11);;
+}
+.bp-btn2{
+  color: rgb(213,6,0);
+  border: solid 1px rgb(213,6,0);
+}
 
-.bp-btn:hover {
+.bp-btn2:hover {
   color: white;
   background-color: rgb(213,6,0);
   font-weight: 700;

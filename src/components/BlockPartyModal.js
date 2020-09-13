@@ -30,8 +30,8 @@ let BlockPartyModal = () => {
         </Slider>
       </Modal.Content>
       <Modal.Actions>
-        <a className="proj-btn" onClick={() => setOpen(false)}>Back</a>
-        <a href="https://block-party206.herokuapp.com/" className="proj-btn bp-btn">Visit Site</a>
+        <a className="proj-btn bp-btn1" onClick={() => setOpen(false)}>Back</a>
+        <a href="https://block-party206.herokuapp.com/" className="proj-btn bp-btn2">Visit Site</a>
       </Modal.Actions>
     </Modal>
 

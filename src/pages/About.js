@@ -3,7 +3,7 @@ import { Container, Grid, List } from 'semantic-ui-react';
 
 function About() {
     return (
-        <Container id="about" className="f-vh">
+        <Container id="about">
             {/* <div className="pt-20 fw"></div> */}
             <Grid stackable divided>
                 <Grid.Row>

@@ -8,12 +8,12 @@ const Home = () => {
                 <Grid.Row>
                     <div className="pt-10"></div>
                 </Grid.Row>
-                <Grid.Row>
-                    <Grid.Column width={8} verticalAlign="middle">
-                        <Image src="../images/logoClear.png"/>
+                <Grid.Row centered>
+                    <Grid.Column width={5} verticalAlign="middle">
+                        <Image size="medium" src="../images/logoClear.png" />
                     </Grid.Column>
-                    <Grid.Column width={8} textAlign="left" verticalAlign="middle">
-                        <h1 className="font hp-name">ROYCE UBANDO</h1>
+                    <Grid.Column width={5} verticalAlign="middle">
+                        <h1 className="hp-title">ROYCE UBANDO</h1>
                         <h2 className="hp-title">Full Stack Developer</h2>
                     </Grid.Column>
                 </Grid.Row>
