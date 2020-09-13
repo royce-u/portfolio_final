@@ -22,13 +22,12 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <h3 className="font">Tasty Roots</h3>
+                        <h1 className="font">Tasty Roots</h1>
                         <p>A place to preserve family recipes</p>
                         <p>Cloudinary Upload Widget, Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Redux</p>
                         <div className="pt-10"></div>
                         <TastyRootsModal />
-                        {/* <a href="#" className="proj-btn tr-btn">Preview</a> */}
-                        <a href="https://tasty-roots-client.herokuapp.com/" className="proj-btn tr-btn">Visit Site</a>
+                        <a href="https://tasty-roots-client.herokuapp.com/" className="proj-btn r-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
                 </Grid.Row>
@@ -44,12 +43,12 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <h3 className="font">Dodo Swap</h3>
+                        <h1 className="font">Dodo Swap</h1>
                         <p>A way for Animal Crossing Fans to arrange catalogue parties</p>
                         <p>Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Typescript</p>
                         <div className="pt-10"></div>
                         <DodoSwapModal />
-                        <a href="http://dodoswap.herokuapp.com/" className="proj-btn ds-btn">Visit Site</a>
+                        <a href="http://dodoswap.herokuapp.com/" className="proj-btn r-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
                 </Grid.Row>
@@ -65,12 +64,12 @@ const Projects = () => {
                     </Grid.Column>
                     <Grid.Column textAlign="left" verticalAlign="middle">
                         <div className="pt-20"></div>
-                        <h3 className="font">Block Party</h3>
+                        <h1 className="font">Block Party</h1>
                         <p>Connecting you with your local community</p>
                         <p>Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p>
                         <div className="pt-10"></div>
                         <BlockPartyModal />
-                        <a href="https://block-party206.herokuapp.com/" className="proj-btn bp-btn">Visit Site</a>
+                        <a href="https://block-party206.herokuapp.com/" className="proj-btn r-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
                 </Grid.Row>

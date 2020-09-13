@@ -25,7 +25,7 @@ const Contact = () => {
 
             <Grid stackable centered>
                 <Grid.Row textAlign="center">
-                    <div>
+                    <div className="pt-10">
                         <h1>Have a project in mind?</h1>
                         <h2>Drop a line and let's get started!</h2>
                     </div>
@@ -58,6 +58,7 @@ const Contact = () => {
                             <Form.Field
                                 control={Button}
                                 content="Confirm"
+                                textAlign="right"
                             />
                         </Form>
                     </Grid.Column>

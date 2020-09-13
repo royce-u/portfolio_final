@@ -62,8 +62,8 @@ body, html{
   vertical-align: center;
 }
 
-h3 {
-  font-size: 28px;
+.head {
+  font-size: 1.75rem;
   margin-bottom: 20px;
 }
 
@@ -126,12 +126,14 @@ h3 {
 }
 
 .hp-name{
-  font-family: 'Do Hyeon', sans-serif;
+  font-size: 2rem;
+  margin: 0;
 }
 
 .hp-title{
-  font-family: 'Do Hyeon', sans-serif;
-  font-size: 30px;
+  font-family: 'lato', sans-serif;
+  font-size: 2rem;
+  margin: 0;
 }
 .techList{
   text-align: left;
@@ -210,19 +212,35 @@ h3 {
 }
 
 .proj-btn {
-  border: none;
   padding: 8px 16px;
   text-decoration: none;
   margin: 4px 4px;
-  cursor: pointer;
   border-radius: 5px;
-  font-family: sans-serif;
+  font-family: lato, sans-serif;
+  font-size: 1rem;
   font-weight: 700;
-  background-color: white;
-  color: rgb(11, 127, 148);
+}
+.l-btn{
+  color: white;
+  background-color: rgb(11, 127, 148);
   border: solid 1px rgb(11, 127, 148);
 }
+.l-btn:hover{
+  color: white;
+  background-color: rgb(5, 103, 121);
+}
+.r-btn{
+  color: rgb(11, 127, 148);
+  background-color: white;
+  border: solid 3px rgb(11, 127, 148);
 
+  border: solid 1px rgb(11, 127, 148);
+}
+.r-btn:hover{
+  /* color: rgb(250,221,89); */
+  color: white;
+  background-color: rgb(11, 127, 148);
+}
 
 .tr-btn1 {
   color: white;

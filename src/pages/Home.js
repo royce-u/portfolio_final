@@ -1,18 +1,24 @@
 import React from 'react';
-import { Container, Grid, Header } from 'semantic-ui-react'
+import { Container, Grid, Image } from 'semantic-ui-react'
 
 const Home = () => {
     return (
-        <Container className="f-vh" id="home">
-            <Grid height="100%">
-                <div className="pt-20"></div>
-                <Grid.Row textAlign="right">
-                    <Grid.Column><Header className="hp-name">Royce Ubando</Header>
-                        <h3 className="hp-title" >Full Stack Developer</h3>
+        <div className="f-vh bg-def" id="home">
+            <Grid columns={2} stackable>
+                <Grid.Row>
+                    <div className="pt-10"></div>
+                </Grid.Row>
+                <Grid.Row>
+                    <Grid.Column width={8} verticalAlign="middle">
+                        <Image src="../images/logoClear.png"/>
+                    </Grid.Column>
+                    <Grid.Column width={8} textAlign="left" verticalAlign="middle">
+                        <h1 className="font hp-name">ROYCE UBANDO</h1>
+                        <h2 className="hp-title">Full Stack Developer</h2>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-        </Container>
+        </div>
 
     )
 }

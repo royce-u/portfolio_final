@@ -21,7 +21,7 @@ let TastyRootsModal = () => {
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
-      trigger={<a className="proj-btn">Preview</a>}
+      trigger={<a className="proj-btn l-btn">Preview</a>}
       size="large"
     >
       <Modal.Content>

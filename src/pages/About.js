@@ -8,8 +8,9 @@ function About() {
             <Grid stackable divided>
                 <Grid.Row>
                     <Grid.Column width={8} verticalAlign="middle">
-                        <div className="pt-10"></div>
-                        <h3>About Me</h3>
+                        <div className="pt-10">
+                        <h3>ABOUT ME</h3>
+                        </div>
                     </Grid.Column>
                     <Grid.Column width="8" verticalAlign="middle" textAlign="left">
                     <div className="pt-30"></div>
@@ -22,7 +23,7 @@ function About() {
                     <Grid.Column width={16}>
                         <hr/>
                         <div className="pt-10"></div>
-                        <h3>Technical Skills</h3>
+                        <h3>TECHNICAL SKILLS</h3>
                     </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
