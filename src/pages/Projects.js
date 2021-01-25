@@ -48,7 +48,7 @@ const Projects = () => {
                         <p>Express, JavaScript, JWT, Mongoose, MongoDB, Node.js, React, React Semantic UI, Typescript</p>
                         <div className="pt-10"></div>
                         <DodoSwapModal />
-                        <a href="http://dodoswap.herokuapp.com/" className="proj-btn r-btn">Visit Site</a>
+                        <a href="http://dodo-swap.herokuapp.com/" className="proj-btn r-btn">Visit Site</a>
                         <div className="pt-20"></div>
                     </Grid.Column>
                 </Grid.Row>
