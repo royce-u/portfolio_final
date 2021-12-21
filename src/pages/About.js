@@ -15,7 +15,7 @@ function About() {
                     <Grid.Column width="8" verticalAlign="middle" textAlign="left">
                     <div className="pt-30"></div>
                         <div className="aboutText">
-                            <p>Full stack developer skilled in Javascript, React, Flutter, Dart and Python. Coming from a background in hospitality, I’ve built solid proficiencies in communication, troubleshooting and attention to detail.  Understanding the needs of individual users, I take a creative approach to problem solving and build scalable, user-friendly solutions for everyone.  My eagerness to learn fuels my drive to work towards creating advanced technological solutions to improve our everyday lives.</p>
+                            <p>Full-stack developer skilled in Javascript, React, Flutter, Dart and Python. Coming from a background in hospitality, I’ve built solid proficiencies in communication, troubleshooting and attention to detail.  Understanding the needs of individual users, I take a creative approach to problem-solving and build scalable, user-friendly solutions for everyone.  My eagerness to learn fuels my drive to work towards creating advanced technological solutions to improve our everyday lives.</p>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
