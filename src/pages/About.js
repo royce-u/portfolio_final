@@ -15,7 +15,7 @@ function About() {
                     <Grid.Column width="8" verticalAlign="middle" textAlign="left">
                     <div className="pt-30"></div>
                         <div className="aboutText">
-                            <p>Full stack developer skilled in Javascript, React, and Python. With my background in Hospitality and experiences meeting different people, I understand the needs of individual users. I take a creative approach to problem-solving and build scalable, user-friendly solutions for every user.  My eagerness to learn strengthens my skills to work towards creating advanced technological solutions for worthy causes to change the world.</p>
+                            <p>Full stack developer skilled in Javascript, React, Flutter, Dart and Python. Coming from a background in hospitality, I’ve built solid proficiencies in communication, troubleshooting and attention to detail.  Understanding the needs of individual users, I take a creative approach to problem solving and build scalable, user-friendly solutions for everyone.  My eagerness to learn fuels my drive to work towards creating advanced technological solutions to improve our everyday lives.</p>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
@@ -29,6 +29,11 @@ function About() {
                     <Grid.Row>
                         <Grid.Column width={16}>
                             <List animated horizontal>
+                            <List.Item>
+                                    <List.Content>
+                                        <List.Header>Dart</List.Header>
+                                    </List.Content>
+                                </List.Item>
                                 <List.Item>
                                     <List.Content>
                                         <List.Header>EJS</List.Header>
@@ -37,6 +42,11 @@ function About() {
                                 <List.Item>
                                     <List.Content>
                                         <List.Header>Express</List.Header>
+                                    </List.Content>
+                                </List.Item>
+                                <List.Item>
+                                    <List.Content>
+                                        <List.Header>Flutter</List.Header>
                                     </List.Content>
                                 </List.Item>
                                 <List.Item>

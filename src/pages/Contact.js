@@ -68,7 +68,7 @@ const Contact = () => {
                         <div>
                             <a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="huge" className="link-clean" /></a>
                             <a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="huge" className="link-clean" /></a>
-                            <a href="../Ubando,Royce.pdf" target="_blank"><Icon color="grey" name="file" size="huge" className="link-clean" /></a>
+                            <a href="../resume122121.pdf" target="_blank"><Icon color="grey" name="file" size="huge" className="link-clean" /></a>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
