@@ -26,8 +26,8 @@ const Contact = () => {
             <Grid stackable centered>
                 <Grid.Row textAlign="center">
                     <div className="pt-10">
-                        <h1>Have a project in mind?</h1>
-                        <h2>Drop a line and let's get started!</h2>
+                        <h1>Interested in working together?</h1>
+                        <h2>Fill out the form below with some details about your project and I will get back to you as soon as I can.</h2>
                     </div>
                 </Grid.Row>
                 <Grid.Row>
@@ -68,7 +68,7 @@ const Contact = () => {
                         <div>
                             <a href="https://github.com/royce-u/" target="_blank"><Icon color="grey" name="github" size="huge" className="link-clean" /></a>
                             <a href="https://www.linkedin.com/in/royce-ubando/" target="_blank"><Icon color="grey" name="linkedin" size="huge" className="link-clean" /></a>
-                            <a href="../resume122121.pdf" target="_blank"><Icon color="grey" name="file" size="huge" className="link-clean" /></a>
+                            <a href="../resume.pdf" target="_blank"><Icon color="grey" name="file" size="huge" className="link-clean" /></a>
                         </div>
                     </Grid.Column>
                 </Grid.Row>
