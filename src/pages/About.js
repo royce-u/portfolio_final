@@ -54,7 +54,11 @@ function About() {
                                         <List.Header>HTML</List.Header>
                                     </List.Content>
                                 </List.Item>
-
+                                <List.Item>
+                                    <List.Content>
+                                        <List.Header>JavaScript</List.Header>
+                                    </List.Content>
+                                </List.Item>
                                 <List.Item>
                                     <List.Content>
                                         <List.Header>MondoDB</List.Header>

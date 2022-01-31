@@ -66,7 +66,7 @@ const Projects = () => {
                         <div className="pt-20"></div>
                         <h1 className="font">Block Party</h1>
                         <p>Connecting you with your local community</p>
-                        <p>Bcrypt JS, Express EJS Layouts, Javascript, Materialize, Node.js, Passport, SQL, Sequelize</p>
+                        <p>Bcrypt JS, Express EJS Layouts, JavaScript, Materialize, Node.js, Passport, Sequelize, SQL</p>
                         <div className="pt-10"></div>
                         <BlockPartyModal />
                         <a href="https://block-party206.herokuapp.com/" className="proj-btn r-btn">Visit Site</a>

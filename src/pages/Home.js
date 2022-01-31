@@ -14,7 +14,7 @@ const Home = () => {
                     </Grid.Column>
                     <Grid.Column width={5} verticalAlign="middle">
                         <h1 className="hp-title">ROYCE UBANDO</h1>
-                        <h2 className="hp-title">Full-stack Developer</h2>
+                        <h2 className="hp-title">Full-Stack Developer</h2>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
